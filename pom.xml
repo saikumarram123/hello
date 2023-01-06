@@ -37,6 +37,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.0.5</version>
+                 <groupId>com.day.jcr.vault</groupId>
+                   <artifactId>content-package-maven-plugin</artifactId>
+                    <version>1.0.4</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
